@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 100% vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_links {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 112px 0 112px ;
+  align-items: center;
+  font-weight: bold;
+
+
+  p {
+    margin-right: 10px;
+  }
+
+  button {
+    background-color: #8E2424;
+    color: #fff;
+    border: none;
+    height: 44px;
+    width: 112px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    font-weight: bold;  
+  }
+}
+
+.header_img {
+  margin-right: 5px;
+}
