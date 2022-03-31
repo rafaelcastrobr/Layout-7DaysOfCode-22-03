@@ -1,24 +1,35 @@
 .header {
   display: flex;
-  flex-direction: row;
   height: 80px;
   width: 100% vh;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  cursor: pointer;
+
+  .menu  p {
+    color: #667085;
+    font-weight: bold;
+
+
+    &:hover {
+      color: #2a2b2e;
+
+    }
+  }
 }
 
 .header_links {
   display: flex;
-  flex-direction: row;
-  padding: 5px 112px 0 112px ;
+  padding: 5px 112px 0 112px;
   align-items: center;
   font-weight: bold;
-
-
+  
+  
   p {
     margin-right: 10px;
   }
-
+  
   button {
     background-color: #8E2424;
     color: #fff;
@@ -29,6 +40,12 @@
     top: 0px;
     border-radius: 8px;
     font-weight: bold;  
+    font-size: 20px;
+
+
+    &:hover {
+      background-color: #a55656;
+    }
   }
 }
 
