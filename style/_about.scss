@@ -2,9 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   height: 407px;
-  padding: 0 300px;
+  width: 100% vh;
+  padding: 0 10px;
+  margin-bottom: 96px;
+
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 792px;
+    height: 83px;
+  }
 
   span {
     margin-bottom: 24px;

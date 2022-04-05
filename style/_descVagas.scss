@@ -1,0 +1,39 @@
+.content-descVagas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  :nth-child(1n+0) {
+    margin-bottom: 20px;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 80px;
+  }
+
+  span {
+    color: $corSpan;
+    padding: 4px 12px;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+  }
+
+  h3 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  p {
+    color: $corP;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  img {
+    width: 90%;
+  }
+}
