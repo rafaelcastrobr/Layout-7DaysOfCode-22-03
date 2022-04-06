@@ -218,4 +218,117 @@
 .content-descVagas img {
   width: 90%;
 }
+
+.content-vagas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 740px;
+}
+
+.content-vagas .vagas-profissao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80%;
+  height: 358px;
+}
+
+.content-vagas .vagas-profissao div {
+  border: 1px solid #EAECF0;
+  border-radius: 16px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+.content-vagas .vagas-profissao div p {
+  color: #667085;
+}
+
+.content-recomendacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 500px;
+  padding: 0 100px;
+}
+
+.content-recomendacao div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 404px;
+}
+
+.content-recomendacao div :last-child {
+  color: #667085;
+}
+
+.content-recomendacao span {
+  color: #8E2424;
+}
+
+.content-recomendacao h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.content-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content-footer :nth-child(1n+1) {
+  margin-bottom: 10px;
+}
+
+.content-footer p:last-child {
+  margin-bottom: 40px;
+}
+
+.content-footer h3 {
+  font-weight: 600;
+  font-size: 36px;
+}
 /*# sourceMappingURL=style.css.map */

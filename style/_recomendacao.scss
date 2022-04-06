@@ -1,0 +1,33 @@
+.content-recomendacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  padding: 0 100px;
+
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 404px;
+
+    :last-child {
+      color: #667085;
+    }
+  }
+
+  span {
+    color: $corSpan;
+  }
+
+  h2 {
+    text-align: center;
+    font-weight: 500;
+font-size: 36px;
+  }
+
+  
+}
